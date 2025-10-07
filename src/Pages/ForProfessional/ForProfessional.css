@@ -1,0 +1,22 @@
+.for-professional-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.for-professional-content {
+  flex: 1;
+  padding: 120px 20px 60px;
+  text-align: center;
+}
+
+.for-professional-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.for-professional-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+

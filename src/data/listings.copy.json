@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "slug": "cabinets",
+    "title": "Cabinets",
+    "description": "Explore our wide range of custom and stock cabinet solutions, perfect for kitchens, bathrooms, and any space in your home. We offer a variety of styles, materials, and finishes to match your vision.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-6585617.jpg",
+    "gallery_images": [
+      "/src/assets/images/DEZIGNA_SERVICES/pexels-curtis-adams-1694007-3935340.jpg",
+      "/src/assets/images/DEZIGNA_SERVICES/pexels-falling4utah-2724749.jpg",
+      "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-6508346.jpg"
+    ],
+    "features": [
+      "Custom sizing and configurations",
+      "Soft-close hinges and drawers",
+      "Durable and high-quality materials",
+      "Professional installation services"
+    ],
+    "materials": ["Oak", "Maple", "Cherry", "MDF", "Laminate"]
+  },
+  {
+    "id": 2,
+    "slug": "flooring",
+    "title": "Flooring",
+    "description": "Discover a variety of flooring options to suit any style and budget. From classic hardwood to modern vinyl, we have the perfect foundation for your space.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-pixabay-271722.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-jvdm-1454805.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-pixabay-271711.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-longa-1652544.jpg"
+    ],
+    "features": [
+      "Wide selection of materials",
+      "Expert installation",
+      "Durable and long-lasting finishes",
+      "Suitable for residential and commercial use"
+    ],
+    "materials": ["Hardwood", "Laminate", "Vinyl", "Tile", "Carpet"]
+  },
+  {
+    "id": 3,
+    "slug": "countertops",
+    "title": "Countertops",
+    "description": "Upgrade your kitchen or bathroom with our beautiful and durable countertops. Choose from a range of premium materials to find the perfect surface for your home.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-curtis-adams-1694007-3935350.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-falling4utah-2724748.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-6312077.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-jworks1124-342800.jpg"
+    ],
+    "features": [
+      "Heat, scratch, and stain resistant",
+      "Custom fabrication and edging",
+      "Seamless installation",
+      "Variety of colors and patterns"
+    ],
+    "materials": ["Granite", "Quartz", "Marble", "Butcher Block", "Solid Surface"]
+  },
+  {
+    "id": 4,
+    "slug": "closets",
+    "title": "Closets",
+    "description": "Organize your life with our custom closet systems. We design and install solutions that maximize your space and fit your specific needs.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-7061393.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-11701158.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-ivaoo-691710.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-marywhitneyph-90319.jpg"
+    ],
+    "features": [
+      "Walk-in, reach-in, and wardrobe units",
+      "Adjustable shelves and rods",
+      "Integrated lighting and accessories",
+      "Designed for your lifestyle"
+    ],
+    "materials": ["Wood Veneer", "Melamine", "Laminate", "Glass"]
+  },
+  {
+    "id": 5,
+    "slug": "tiles",
+    "title": "Tiles",
+    "description": "Add character and style to your home with our extensive collection of tiles. Perfect for backsplashes, floors, showers, and more.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-pixabay-280232.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-reneterp-1358900.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-reneterp-1358910.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-saviesa-home-1098995-2089698.jpg"
+    ],
+    "features": [
+      "Wide range of sizes, shapes, and colors",
+      "Durable and easy to clean",
+      "Suitable for indoor and outdoor use",
+      "Endless design possibilities"
+    ],
+    "materials": ["Ceramic", "Porcelain", "Glass", "Natural Stone", "Mosaic"]
+  },
+  {
+    "id": 6,
+    "slug": "accessories",
+    "title": "Accessories",
+    "description": "Complete your project with our stylish and functional accessories. From cabinet hardware to kitchen sinks, we have the finishing touches you need.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-6489123.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-anastasia-shuraeva-5704845.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-anastasia-shuraeva-5705478.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-anastasia-shuraeva-5705490.jpg"
+    ],
+    "features": [
+      "Knobs, pulls, and handles",
+      "Faucets and sinks",
+      "Lighting solutions",
+      "Storage and organization"
+    ],
+    "materials": ["Stainless Steel", "Brass", "Chrome", "Matte Black", "Bronze"]
+  },
+  {
+    "id": 7,
+    "slug": "outdoor-kitchen",
+    "title": "Outdoor Kitchen",
+    "description": "Create the ultimate outdoor entertaining space with our custom outdoor kitchens. We offer durable and weather-resistant solutions for year-round enjoyment.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-8134812.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-atbo-66986-245219.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-christa-grover-977018-1909656.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-paggiarofrancesco-581087.jpg"
+    ],
+    "features": [
+      "Built-in grills and appliances",
+      "Weatherproof cabinetry",
+      "Durable countertops",
+      "Integrated sinks and refrigeration"
+    ],
+    "materials": ["Stainless Steel", "Marine-grade Polymer", "Teak", "Stone"]
+  },
+  {
+    "id": 8,
+    "slug": "appliances",
+    "title": "Appliances",
+    "description": "We offer a curated selection of high-performance appliances from leading brands to complement your new kitchen or outdoor space.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-pixabay-373541.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-pixabay-220152.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-pixabay-373548.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-vika-glitter-392079-3315286.jpg"
+    ],
+    "features": [
+      "Refrigerators and freezers",
+      "Ranges, cooktops, and ovens",
+      "Dishwashers",
+      "Microwaves and ventilation"
+    ],
+    "materials": ["Bosch", "Thermador", "Miele", "Sub-Zero", "Wolf"]
+  },
+  {
+    "id": 9,
+    "slug": "view-product-catalog",
+    "title": "Product Catalog",
+    "description": "Browse our complete product catalog to discover all the possibilities for your project. Get inspired and find the perfect products for your home.",
+    "image": "/src/assets/images/DEZIGNA_SERVICES/pexels-heyho-6782465.jpg",
+    "gallery_images": [
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-fotoaibe-1643384.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-jvdm-1457847.jpg",
+        "/src/assets/images/DEZIGNA_SERVICES/pexels-polina-kovaleva-5644353.jpg"
+    ],
+    "features": [
+      "Comprehensive product listings",
+      "Detailed specifications and images",
+      "Inspiration galleries",
+      "Downloadable resources"
+    ],
+    "materials": []
+  }
+]

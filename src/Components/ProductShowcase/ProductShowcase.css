@@ -1,0 +1,123 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-showcase-container {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #f4f6f9, #ffffff);
+}
+
+.showcase-title {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: rgb(0, 128, 255);
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  opacity: 0;
+  animation: fadeInUp 0.5s forwards;
+}
+
+/* Staggered animation for cards */
+.product-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.product-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.product-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.product-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.product-card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.product-card:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.product-card:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.product-card:nth-child(8) {
+  animation-delay: 0.8s;
+}
+.product-card:nth-child(9) {
+  animation-delay: 0.9s;
+}
+
+.product-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 20px rgb(0, 123, 255);
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.15);
+}
+
+.product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 25px;
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.product-card:hover .product-overlay {
+  opacity: 1;
+}
+
+.product-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  font-family: "fraunces", serif;
+  color: rgb(0, 225, 255);
+  transform: translateY(30px);
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0.1s;
+}
+
+.product-card:hover .product-name {
+  transform: translateY(-100px);
+}

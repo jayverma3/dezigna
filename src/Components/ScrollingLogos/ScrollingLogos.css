@@ -1,0 +1,58 @@
+.scrolling-logos-container {
+  width: 100%;
+  overflow: hidden;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.scrolling-logos-title {
+  font-weight: bold;
+  font-size: var(--text-2xl);
+  margin-bottom: 10px;
+  padding-left: 0;
+  white-space: nowrap;
+  color: var(--primary-color);
+  margin-right: var(--spacing-xl);
+}
+
+.scrolling-logos-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.scrolling-logos {
+  display: flex;
+  width: calc(300%); /* Adjusted for 3x repeated logos */
+  animation: scroll-left 30s linear infinite; /* Slower for smoother scroll */
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-right: 30px;
+  background: var(--background-color);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-item img {
+  max-width: 100%;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-66.6667%); /* Adjusted for 3x repeated logos */
+  }
+}

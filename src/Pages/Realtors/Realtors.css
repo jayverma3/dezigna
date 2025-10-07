@@ -1,0 +1,29 @@
+.realtors-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 80px; /* Account for fixed header */
+}
+
+.realtors-content {
+  flex-grow: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.realtors-content h1 {
+  font-family: var(--font-secondary);
+  font-size: 2.8rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.realtors-content p {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
