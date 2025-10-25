@@ -1,123 +1,275 @@
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/*
+  File: D:\Websites\Sites after updates\dezigna\dezigna\src\Components\ProductShowcase\ProductShowcase.css
+  Description: Modern, dynamic, and isolated styles for the ProductShowcase component.
+*/
 
-.product-showcase-container {
-  padding: 80px 20px;
-  text-align: center;
-  background: linear-gradient(to bottom, #f4f6f9, #ffffff);
-}
-
-.showcase-title {
-  font-size: 3rem;
-  margin-bottom: 50px;
-  color: rgb(0, 128, 255);
-  animation: fadeInUp 0.8s ease-out;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 35px;
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-.product-card {
+.Showcase-container {
   position: relative;
+  padding: 120px 20px;
   overflow: hidden;
-  border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
-    box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  opacity: 0;
-  animation: fadeInUp 0.5s forwards;
+  background-color: rgba(10, 10, 10, 0);
 }
 
-/* Staggered animation for cards */
-.product-card:nth-child(1) {
-  animation-delay: 0.1s;
-}
-.product-card:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.product-card:nth-child(3) {
-  animation-delay: 0.3s;
-}
-.product-card:nth-child(4) {
-  animation-delay: 0.4s;
-}
-.product-card:nth-child(5) {
-  animation-delay: 0.5s;
-}
-.product-card:nth-child(6) {
-  animation-delay: 0.6s;
-}
-.product-card:nth-child(7) {
-  animation-delay: 0.7s;
-}
-.product-card:nth-child(8) {
-  animation-delay: 0.8s;
-}
-.product-card:nth-child(9) {
-  animation-delay: 0.9s;
-}
-
-.product-card:hover {
-  transform: translateY(-12px) scale(1.03);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 20px rgb(0, 123, 255);
-}
-
-.product-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.product-card:hover .product-image {
-  transform: scale(1.15);
-}
-
-.product-overlay {
+.Showcase-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgb(0, 0, 0), transparent);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 25px;
-  opacity: 0;
-  transition: opacity 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-image: radial-gradient(
+      circle at 20% 20%,
+      rgba(101, 80, 224, 0.1),
+      transparent 30%
+    ),
+    radial-gradient(circle at 80% 70%, rgba(224, 80, 151, 0.1), transparent 30%);
+  animation: background-pan 20s infinite linear;
+  z-index: 0;
 }
 
-.product-card:hover .product-overlay {
+@keyframes background-pan {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.Showcase {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Showcase__header {
+  text-align: center;
+  margin-bottom: 90px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Showcase__title {
+  font-family: var(--font-secondary);
+  font-size: 3.5rem;
+  font-weight: 100;
+  color: #2acddf;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.Showcase__subtitle {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+.Showcase__grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 320px;
+  gap: 24px;
+}
+
+.Showcase__card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Showcase__card:hover {
+  transform: translateY(-10px);
+}
+
+.Showcase__card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.Showcase__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.Showcase__card:hover .Showcase__image {
+  transform: scale(1.1);
+}
+
+.Showcase__cardLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 32px;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 60%);
+}
+
+.Showcase__content {
+  color: white;
+  transform: translateY(20px);
+  transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 0;
+}
+
+.Showcase__card:hover .Showcase__content {
+  transform: translateY(0);
   opacity: 1;
 }
 
-.product-name {
-  font-size: 1.6rem;
+.Showcase__productName {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-  text-align: center;
-  font-family: "fraunces", serif;
-  color: rgb(0, 225, 255);
-  transform: translateY(30px);
-  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0.1s;
+  margin-bottom: 12px;
 }
 
-.product-card:hover .product-name {
-  transform: translateY(-100px);
+.Showcase__productDesc {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+
+.Showcase__cta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Showcase__cta-icon {
+  transition: transform 0.3s ease;
+}
+
+.Showcase__card:hover .Showcase__cta-icon {
+  transform: translateX(5px);
+}
+
+/* Dynamic Grid Layout */
+.Showcase__card--1 {
+  grid-column: span 12;
+}
+@media (min-width: 640px) {
+  .Showcase__card--1 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .Showcase__card--1 {
+    grid-column: span 5;
+    grid-row: span 2;
+  }
+}
+
+.Showcase__card--2 {
+  grid-column: span 12;
+}
+@media (min-width: 640px) {
+  .Showcase__card--2 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .Showcase__card--2 {
+    grid-column: span 7;
+  }
+}
+
+.Showcase__card--3 {
+  grid-column: span 12;
+}
+@media (min-width: 640px) {
+  .Showcase__card--3 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .Showcase__card--3 {
+    grid-column: span 4;
+  }
+}
+
+.Showcase__card--4 {
+  grid-column: span 12;
+}
+@media (min-width: 640px) {
+  .Showcase__card--4 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .Showcase__card--4 {
+    grid-column: span 3;
+  }
+}
+
+.Showcase__card--5 {
+  grid-column: span 12;
+}
+@media (min-width: 640px) {
+  .Showcase__card--5 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .Showcase__card--5 {
+    grid-column: span 4;
+  }
+}
+
+.Showcase__card--6 {
+  grid-column: span 12;
+}
+@media (min-width: 640px) {
+  .Showcase__card--6 {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1024px) {
+  .Showcase__card--6 {
+    grid-column: span 8;
+  }
+}
+
+.Showcase__view-all {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.Showcase__view-all-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 32px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Showcase__view-all-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
 }

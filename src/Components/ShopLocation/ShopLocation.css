@@ -1,0 +1,18 @@
+.shop-location {
+  padding: 2rem;
+  text-align: center;
+}
+
+.map-container {
+  margin-bottom: 1rem;
+}
+
+.map-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.address-container {
+  font-size: 1.2rem;
+}

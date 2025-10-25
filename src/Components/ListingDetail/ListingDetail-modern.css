@@ -1,0 +1,249 @@
+/*
+  File: D:\Websites\Sites after updates\dezigna\dezigna\src\Components\ListingDetail\ListingDetail-modern.css
+  Description: Rewritten with a strict BEM-like methodology to guarantee style isolation and fix layout issues.
+*/
+
+/* The main container for the entire component view */
+.ListingDetail {
+  padding: 150px 20px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* The grid that separates the gallery from the info */
+.ListingDetail__grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to single column for mobile */
+  gap: 50px;
+}
+
+/* Switch to two columns on larger screens */
+@media (min-width: 992px) {
+  .ListingDetail__grid {
+    grid-template-columns: 5fr 4fr;
+  }
+}
+
+/* Gallery Section */
+.ListingDetail__gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ListingDetail__mainImageWrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 4 / 3;
+}
+
+.ListingDetail__mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ListingDetail__navArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ListingDetail__navArrow:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.ListingDetail__navArrow--prev {
+  left: 16px;
+}
+
+.ListingDetail__navArrow--next {
+  right: 16px;
+}
+
+.ListingDetail__thumbnailReel {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.ListingDetail__thumbnailContainer {
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+  aspect-ratio: 1 / 1;
+}
+
+.ListingDetail__thumbnailContainer--active {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 15px rgba(var(--primary-color-rgb), 0.5);
+}
+
+.ListingDetail__thumbnailImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Product Info Section */
+.ListingDetail__infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ListingDetail__title {
+  font-family: var(--font-secondary);
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.ListingDetail__description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.ListingDetail__section {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 24px;
+}
+
+.ListingDetail__sectionTitle {
+  font-family: var(--font-secondary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.ListingDetail__featuresList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ListingDetail__featureItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+}
+
+.ListingDetail__featureIcon {
+  color: var(--primary-color);
+}
+
+.ListingDetail__specsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.ListingDetail__specItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListingDetail__specKey {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.ListingDetail__specValue {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.ListingDetail__materialsTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ListingDetail__materialTag {
+  background-color: #e9e9e9;
+  color: #444;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.ListingDetail__ctaSection {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 24px;
+}
+
+.ListingDetail__quoteButton {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 16px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.ListingDetail__quoteButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(var(--primary-color-rgb), 0.4);
+}
+
+.ListingDetail__quoteSubtext {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Fallback for 'Not Found' state */
+.listing-not-found {
+  text-align: center;
+  padding: 120px 20px 60px;
+}
+
+.listing-not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.listing-not-found .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}

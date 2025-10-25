@@ -3,8 +3,10 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import SearchBar from "../../Components/SearchBar/SearchBar";
 import Listing from "../../Components/Listing/Listing";
+import CabinetVisualizer from "../../Components/CabinetVisualizer/CabinetVisualizer";
 import listingsData from "../../data/listings.json";
 import useDebounce from "../../hooks/useDebounce";
+import ImageGallery from "../../Components/ImageGallery/ImageGallery";
 import "./Products.css";
 
 const Products = () => {
@@ -22,6 +24,7 @@ const Products = () => {
   return (
     <div className="plistings-page">
       <Header />
+
       <div className="search-section">
         <div className="search-header">
           <h1 className="search-title">
@@ -36,8 +39,10 @@ const Products = () => {
       </div>
       <div className="listings-content">
         <Listing listings={listings} />
+        <ImageGallery />
+
+        {/*<CabinetVisualizer />*/}
       </div>
-      <Footer />
     </div>
   );
 };

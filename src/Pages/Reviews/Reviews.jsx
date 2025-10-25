@@ -15,7 +15,6 @@ const Reviews = () => {
         <Testimonials />
         <FAQ />
       </div>
-      <Footer />
     </div>
   );
 };

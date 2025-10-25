@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/*:root {
+  --panel-bg: rgba(20, 20, 22, 0.85);
+  --panel-text: #f5f5f7;
+  --accent-color: #0071e3;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --control-bg: #2c2c2e;
+  --control-bg-hover: #3a3a3c;
+}*/
+
+.visualizer-wrapper {
+  font-family: "Inter", sans-serif;
+  color: var(--panel-text);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: #e8e8e8;
+  position: relative;
+  overflow: hidden;
+  --panel-bg: rgba(20, 20, 22, 0.85);
+  --panel-text: #f5f5f7;
+  --accent-color: #0071e3;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --control-bg: #2c2c2e;
+  --control-bg-hover: #3a3a3c;
+}
+
+.visualizer-wrapper .viewer-container {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.visualizer-wrapper .configurator-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 340px;
+  background: var(--panel-bg);
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.visualizer-wrapper .header {
+  text-align: center;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 16px;
+}
+
+.visualizer-wrapper .header h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+}
+
+.visualizer-wrapper .header p {
+  font-size: 0.9rem;
+  color: #a0a0a5;
+  margin-top: 4px;
+}
+
+.visualizer-wrapper details {
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.visualizer-wrapper details:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.visualizer-wrapper summary {
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 16px 8px;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  border-radius: 8px;
+}
+
+.visualizer-wrapper summary:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.visualizer-wrapper summary::-webkit-details-marker {
+  display: none;
+}
+
+.visualizer-wrapper summary::after {
+  content: "+";
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  color: #a0a0a5;
+}
+
+.visualizer-wrapper details[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.visualizer-wrapper .picker h4 {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #a0a0a5;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.visualizer-wrapper .thumbnails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.visualizer-wrapper .thumbnails img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  opacity: 0.8;
+}
+
+.visualizer-wrapper .thumbnails img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.visualizer-wrapper .thumbnails img.active {
+  border-color: var(--accent-color);
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 113, 227, 0.6);
+}
+
+.visualizer-wrapper .slider {
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.visualizer-wrapper .slider label,
+.visualizer-wrapper .slider span {
+  font-size: 0.9rem;
+  color: #d1d1d6;
+}
+
+.visualizer-wrapper .slider label {
+  font-weight: 500;
+}
+
+.visualizer-wrapper .slider span {
+  float: right;
+  background: var(--control-bg);
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.visualizer-wrapper input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: var(--control-bg);
+  border-radius: 3px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.visualizer-wrapper input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s, box-shadow 0.2s;
+  border: 3px solid var(--control-bg);
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.visualizer-wrapper input[type="range"]::-webkit-slider-thumb:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.visualizer-wrapper .loading,
+.visualizer-wrapper .error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  color: #333;
+}

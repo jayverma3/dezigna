@@ -1,0 +1,62 @@
+{
+  "bodyMaterials": [
+    {
+      "name": "White Oak",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/olivo-250x460-1.jpg"
+    },
+    {
+      "name": "Dark Walnut",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/cabinet_brown_design.jpg"
+    },
+    {
+      "name": "Matte Black",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/midnight_blue_shaker-shb.jpg"
+    },
+    {
+      "name": "Titan",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/titan-03-250x460-1.jpg"
+    },
+    {
+      "name": "White Marble",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/porcelain-gold-02-250x460-1.jpg"
+    },
+    {
+      "name": "Gray Granite",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/metallo-4-250x460-1.jpg"
+    },
+    {
+      "name": "Black Quartz",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/porcelain-gold-02-250x460-1 (1).jpg"
+    }
+  ],
+  "countertopMaterials": [
+    {
+      "name": "White Marble",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/porcelain-gold-02-250x460-1.jpg"
+    },
+    {
+      "name": "Gray Granite",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/metallo-4-250x460-1.jpg"
+    },
+    {
+      "name": "Black Quartz",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/porcelain-gold-02-250x460-1 (1).jpg"
+    },
+    {
+      "name": "White Oak",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/olivo-250x460-1.jpg"
+    },
+    {
+      "name": "Dark Walnut",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/cabinet_brown_design.jpg"
+    },
+    {
+      "name": "Matte Black",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/midnight_blue_shaker-shb.jpg"
+    },
+    {
+      "name": "Titan",
+      "mapUrl": "/images/DEZIGNA_SERVICES/CABINETS/Cabinet_textures/titan-03-250x460-1.jpg"
+    }
+  ]
+}

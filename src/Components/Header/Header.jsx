@@ -92,20 +92,15 @@ const Header = () => {
               )}
             </AnimatePresence>
           </li>
-          <li className={`nav__item ${isActive("/for-professionals")}`}>
-            <Link to="/for-professionals" onClick={closeMenu}>
-              For Professionals
-            </Link>
-          </li>
 
           <li className={`nav__item ${isActive("/reviews")}`}>
             <Link to="/reviews" onClick={closeMenu}>
               Reviews
             </Link>
           </li>
-          <li className={`nav__item ${isActive("/expert-insight")}`}>
-            <Link to="/expert-insight" onClick={closeMenu}>
-              Expert Insight
+          <li className={`nav__item ${isActive("/about")}`}>
+            <Link to="/about" onClick={closeMenu}>
+              About Us
             </Link>
           </li>
         </ul>
