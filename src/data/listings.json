@@ -3,7 +3,7 @@
     "id": 1,
     "slug": "cabinets",
     "title": "Custom Cabinets",
-    "description": "Bespoke cabinet solutions for kitchens, bathrooms, and living spaces. Tailored to your style and needs.",
+    "description": "Cabinet solutions for kitchens, bathrooms, and living spaces. Tailored to your style and needs.",
     "image": "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-10827348.jpg",
     "gallery_images": [
       "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-4119836.jpg",
@@ -74,7 +74,13 @@
       "Seamless installation",
       "Variety of colors and patterns"
     ],
-    "materials": ["Granite", "Quartz", "Marble", "Butcher Block", "Solid Surface"],
+    "materials": [
+      "Granite",
+      "Quartz",
+      "Marble",
+      "Butcher Block",
+      "Solid Surface"
+    ],
     "specifications": {
       "Material": "Calacatta Quartz",
       "Thickness": "3cm",

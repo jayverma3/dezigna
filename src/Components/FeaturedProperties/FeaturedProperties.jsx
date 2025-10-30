@@ -96,7 +96,8 @@ const FeaturedProperties = () => {
             variants={itemVariants}
             whileHover={{
               y: -8,
-              boxShadow: "0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)",
+              boxShadow:
+                "0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)",
             }}
             transition={{ type: "spring", stiffness: 300 }}
           >
@@ -111,7 +112,7 @@ const FeaturedProperties = () => {
             <div className="card-content">
               <h3 className="card-title">{service.title}</h3>
               <p className="card-description">{service.description}</p>
-              <a href="#" className="card-button">
+              <a href="products" className="card-button">
                 Explore Service
                 <FaChevronRight className="card-button-icon" />
               </a>

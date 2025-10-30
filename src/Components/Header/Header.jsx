@@ -60,7 +60,7 @@ const Header = () => {
             </Link>
           </li>
           <li
-            className={`nav__item has-submenu ${isActive("/products")}`}
+            className={`nav__item has-submenu ${isActive("/listing")}`}
             onMouseEnter={() => setIsSubMenuOpen(true)}
             onMouseLeave={() => setIsSubMenuOpen(false)}
           >
@@ -79,7 +79,7 @@ const Header = () => {
                   {productItems.map((item) => (
                     <li key={item} className="submenu__item">
                       <Link
-                        to={`/products/${item
+                        to={`/listing/${item
                           .toLowerCase()
                           .replace(/\s+/g, "-")}`}
                         onClick={closeMenu}

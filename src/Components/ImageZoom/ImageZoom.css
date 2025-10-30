@@ -1,0 +1,23 @@
+.ImageZoom__container {
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in;
+  border-radius: 12px;
+}
+
+.ImageZoom__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+.ImageZoom__container:hover .ImageZoom__image {
+  opacity: 0;
+}
+
+.ImageZoom__container {
+  background-repeat: no-repeat;
+  background-size: 200%; /* Adjust this value to change the zoom level */
+  transition: background-size 0.3s ease-out;
+}

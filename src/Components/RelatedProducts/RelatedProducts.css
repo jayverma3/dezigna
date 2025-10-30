@@ -1,0 +1,70 @@
+.RelatedProducts {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.RelatedProducts__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.RelatedProducts__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.RelatedProducts__card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.RelatedProducts__link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.RelatedProducts__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.RelatedProducts__info {
+  padding: 1.5rem;
+}
+
+.RelatedProducts__productTitle {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.RelatedProducts__productDescription {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+  height: 4.5em; /* Limit to 3 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.RelatedProducts__viewButton {
+  display: inline-block;
+  font-weight: 600;
+  color: #007bff;
+  transition: color 0.2s;
+}
+
+.RelatedProducts__card:hover .RelatedProducts__viewButton {
+  color: #0056b3;
+}

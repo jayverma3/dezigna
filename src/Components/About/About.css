@@ -224,7 +224,7 @@ h2::after {
 
 /* Leadership/Stats Section */
 .leadership-section-v2 {
-  background-color: var(--primary-color);
+  background-color: rgb(8, 28, 65);
   color: white;
 }
 
