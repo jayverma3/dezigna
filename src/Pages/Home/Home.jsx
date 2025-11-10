@@ -3,7 +3,7 @@ import "./Home.css";
 import Footer from "../../Components/Footer/Footer";
 import Video_with_title from "../../Components/Video_with_title/Video_with_title";
 import ImageGallery from "../../Components/ImageGallery/ImageGallery";
-import Imageandtext from "../../Components/ImageAndText/ImageAndText";
+import Imageandtext from "../../Components/Imageandtext/Imageandtext";
 import FeaturedProperties from "../../Components/FeaturedProperties/FeaturedProperties";
 import ShopLocation from "../../Components/ShopLocation/ShopLocation";
 import ContactForm from "../../Components/ContactForm/ContactForm";

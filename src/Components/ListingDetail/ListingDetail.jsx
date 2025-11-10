@@ -2,13 +2,52 @@ import ImageZoom from "../ImageZoom/ImageZoom";
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  CheckCircle,
+  Star,
+  Tag,
+  Award,
+} from "lucide-react";
 import listings from "../../data/listings.json";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import QuoteForm from "../QuoteForm/QuoteForm";
 import RelatedProducts from "../RelatedProducts/RelatedProducts";
 import "./ListingDetail-modern.css";
+
+const renderStars = (rating) => {
+  const stars = [];
+  const fullStars = Math.floor(rating);
+  const halfStar = rating % 1 !== 0;
+
+  for (let i = 0; i < fullStars; i++) {
+    stars.push(
+      <Star key={`full-${i}`} size={18} fill="#ffc107" strokeWidth={0} />
+    );
+  }
+
+  if (halfStar) {
+    stars.push(
+      <Star
+        key="half"
+        size={18}
+        fill="#ffc107"
+        strokeWidth={0}
+        style={{ clipPath: "polygon(0 0, 50% 0, 50% 100%, 0% 100%)" }}
+      />
+    );
+  }
+
+  const emptyStars = 5 - stars.length;
+  for (let i = 0; i < emptyStars; i++) {
+    stars.push(
+      <Star key={`empty-${i}`} size={18} fill="#e4e5e9" strokeWidth={0} />
+    );
+  }
+  return stars;
+};
 
 const ListingDetail = () => {
   const { id } = useParams();
@@ -91,6 +130,12 @@ const ListingDetail = () => {
     <>
       <Header />
       <div className="ListingDetail">
+        <div className="ListingDetail__backLinkContainer">
+          <Link to="/products" className="ListingDetail__backLink">
+            <ChevronLeft size={18} />
+            <span>Back to All Products</span>
+          </Link>
+        </div>
         <motion.div
           className="ListingDetail__grid"
           initial="hidden"
@@ -157,6 +202,26 @@ const ListingDetail = () => {
             <motion.h1 variants={infoVariants} className="ListingDetail__title">
               {listing.title}
             </motion.h1>
+
+            <motion.div variants={infoVariants} className="ListingDetail__meta">
+              <div className="ListingDetail__metaItem">
+                <div className="ListingDetail__rating">
+                  {renderStars(listing.rating)}
+                </div>
+                <span className="ListingDetail__reviews">
+                  ({listing.reviews} reviews)
+                </span>
+              </div>
+              <div className="ListingDetail__metaItem">
+                <Tag size={16} className="ListingDetail__metaIcon" />
+                <span>{listing.category}</span>
+              </div>
+              <div className="ListingDetail__metaItem">
+                <Award size={16} className="ListingDetail__metaIcon" />
+                <span>{listing.style}</span>
+              </div>
+            </motion.div>
+
             <motion.p
               variants={infoVariants}
               className="ListingDetail__description"

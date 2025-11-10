@@ -9,15 +9,10 @@
   display: block;
   width: 100%;
   height: auto;
-  transition: opacity 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .ImageZoom__container:hover .ImageZoom__image {
-  opacity: 0;
-}
-
-.ImageZoom__container {
-  background-repeat: no-repeat;
-  background-size: 200%; /* Adjust this value to change the zoom level */
-  transition: background-size 0.3s ease-out;
+  transform-origin: var(--x, 50%) var(--y, 50%);
+  transform: scale(2);
 }

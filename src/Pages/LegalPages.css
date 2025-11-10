@@ -4,8 +4,8 @@
 .legal-page-container {
   background: linear-gradient(
     135deg,
-    rgb(255, 255, 255) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(245, 247, 250, 0) 0%,
+    rgba(195, 207, 226, 0) 100%
   );
   animation: gradient-animation 15s ease infinite;
   background-size: 400% 400%;
@@ -27,8 +27,8 @@
   padding: 9rem 2rem 4rem;
   max-width: 900px;
   margin: 0 auto;
-  background-color: rgb(198, 207, 207);
-  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #333333;
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.8;
   border-radius: 12px;
@@ -54,9 +54,10 @@
   font-size: 3.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: rgb(0, 128, 255);
+  color: #2c3e50;
   text-align: center;
   padding-bottom: 1rem;
+  border-bottom: 2px solid #3498db;
 }
 
 .legal-page h2 {
@@ -65,7 +66,7 @@
   font-weight: 600;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  color: rgb(0, 128, 255);
+  color: #34495e;
   border-left: 5px solid #3498db;
   padding-left: 1rem;
 }
@@ -75,7 +76,7 @@
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
   text-align: justify;
-  color: rgba(0, 0, 0, 0.77);
+  color: #555555;
 }
 
 .legal-page ul {

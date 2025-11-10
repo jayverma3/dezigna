@@ -23,11 +23,6 @@ const VideoWithTitle = () => {
           </h1>
           <h2 className="vwt-h2">For Your Needs.</h2>
         </div>
-
-        <div className="button-group">
-          <button className="btn contact-btn">Contact</button>
-          <button className="btn learn-btn">Learn</button>
-        </div>
       </div>
     </section>
   );

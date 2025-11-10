@@ -16,11 +16,19 @@ const categories = [
   { name: "Cabinets", icon: <FaBox /> },
   { name: "Flooring", icon: <FaTh /> },
   { name: "Countertops", icon: <FaLayerGroup /> },
-  { name: "Closets", icon: <FaWarehouse /> },
-  { name: "Tiles", icon: <FaRegSun /> },
-  { name: "Accessories", icon: <FaChair /> },
+  {
+    /* name: "Closets", icon: <FaWarehouse />*/
+  },
+  {
+    /*name: "Tiles", icon: <FaRegSun /> */
+  },
+  {
+    /* name: "Accessories", icon: <FaChair /> */
+  },
   { name: "Appliances", icon: <FaBlender /> },
-  { name: "Outdoor Kitchens", icon: <FaUtensils /> },
+  {
+    /*name: "Outdoor Kitchens", icon: <FaUtensils /> */
+  },
 ];
 
 const ProductCategories = () => {
@@ -65,7 +73,7 @@ const ProductCategories = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
       >
-        {categories.map((category) => (
+        {categories.filter(category => category.name).map((category) => (
           <motion.div
             className="category-card"
             key={category.name}

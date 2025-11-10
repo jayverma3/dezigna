@@ -31,10 +31,10 @@ const Imageandtext = () => {
     { name: "Cabinets", icon: CabinetIcon },
     { name: "Flooring", icon: FlooringIcon },
     { name: "Countertops", icon: CountertopIcon },
-    { name: "Closets", icon: ClosetIcon },
-    { name: "Tiles", icon: TilesIcon },
-    { name: "Accessories", icon: AccessoriesIcon },
-    { name: "Outdoor Kitchen", icon: OutdoorKitchenIcon },
+    /*{ name: "Closets", icon: ClosetIcon },*/
+    /*{ name: "Tiles", icon: TilesIcon },*/
+    /*{ name: "Accessories", icon: AccessoriesIcon },*/
+    /*{ name: "Outdoor Kitchen", icon: OutdoorKitchenIcon },*/
     { name: "Appliances", icon: AppliancesIcon },
   ];
 

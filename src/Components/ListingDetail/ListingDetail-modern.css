@@ -1,48 +1,44 @@
-/*
-  File: D:\Websites\Sites after updates\dezigna\dezigna\src\Components\ListingDetail\ListingDetail-modern.css
-  Description: Rewritten with a strict BEM-like methodology to guarantee style isolation and fix layout issues.
-*/
-
-/* The main container for the entire component view */
 .ListingDetail {
-  padding: 150px 20px 60px;
+  padding: 140px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  color: #333;
 }
 
-/* The grid that separates the gallery from the info */
+.ListingDetail__backLinkContainer {
+  margin-bottom: 25px;
+}
+
+.ListingDetail__backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.ListingDetail__backLink:hover {
+  color: #007bff;
+}
+
 .ListingDetail__grid {
   display: grid;
-  grid-template-columns: 1fr; /* Default to single column for mobile */
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
+  align-items: flex-start;
 }
 
-/* Switch to two columns on larger screens */
-@media (min-width: 992px) {
-  .ListingDetail__grid {
-    grid-template-columns: 5fr 4fr;
-  }
-}
-
-/* Gallery Section */
 .ListingDetail__gallery {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  position: sticky;
+  top: 100px;
 }
 
 .ListingDetail__mainImageWrapper {
-  position: relative;
-  border-radius: 16px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
-.ListingDetail__mainImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 
 .ListingDetail__navArrow {
@@ -51,6 +47,7 @@
   transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
+  color: black;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -58,127 +55,110 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: all 0.3s ease;
-  color: black;
-
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .ListingDetail__navArrow:hover {
-  background-color: white;
-  color: black;
-  transform: translateY(-50%) scale(1.1);
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
 .ListingDetail__navArrow--prev {
-  left: 16px;
+  left: 15px;
 }
-
 .ListingDetail__navArrow--next {
-  right: 16px;
+  right: 15px;
 }
 
 .ListingDetail__thumbnailReel {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 12px;
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .ListingDetail__thumbnailContainer {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  border: 3px solid transparent;
-  transition: all 0.3s ease;
-  aspect-ratio: 1 / 1;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease;
 }
-
 .ListingDetail__thumbnailContainer--active {
-  border-color: var(--primary-color);
-  box-shadow: 0 0 15px rgba(var(--primary-color-rgb), 0.5);
+  border-color: #007bff;
 }
-
 .ListingDetail__thumbnailImage {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
 }
 
-/* Product Info Section */
 .ListingDetail__infoContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+  padding-top: 10px;
 }
 
 .ListingDetail__title {
-  font-family: var(--font-secondary);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  color: var(--primary-color);
-  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .ListingDetail__description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   color: #555;
+  margin-bottom: 30px;
 }
 
 .ListingDetail__section {
-  border-top: 1px solid #e5e5e5;
-  padding-top: 24px;
+  margin-bottom: 30px;
 }
 
 .ListingDetail__sectionTitle {
-  font-family: var(--font-secondary);
-  font-size: 1.4rem;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
 }
 
 .ListingDetail__featuresList {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
 }
 
 .ListingDetail__featureItem {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-bottom: 12px;
   font-size: 1rem;
 }
 
 .ListingDetail__featureIcon {
-  color: var(--primary-color);
+  color: #28a745;
 }
 
 .ListingDetail__specsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-  background-color: #f9f9f9;
-  padding: 16px;
-  border-radius: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
 }
 
 .ListingDetail__specItem {
-  display: flex;
-  flex-direction: column;
+  background-color: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
 }
 
 .ListingDetail__specKey {
+  display: block;
   font-weight: 600;
   font-size: 0.9rem;
-  color: #333;
+  margin-bottom: 4px;
 }
 
 .ListingDetail__specValue {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 1rem;
+  color: #555;
 }
 
 .ListingDetail__materialsTags {
@@ -188,61 +168,56 @@
 }
 
 .ListingDetail__materialTag {
-  background-color: #e9e9e9;
-  color: #444;
-  padding: 8px 16px;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 8px 15px;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ListingDetail__materialTag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .ListingDetail__ctaSection {
-  border-top: 1px solid #e5e5e5;
-  padding-top: 24px;
+  margin-top: 40px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .ListingDetail__quoteButton {
-  background-color: var(--primary-color);
-  color: var(--white);
-  padding: 16px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
   font-size: 1.1rem;
+  font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  border: none;
-  width: 100%;
-  box-shadow: 0 4px 15px rgba(var(--primary-color-rgb), 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
 .ListingDetail__quoteButton:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(var(--primary-color-rgb), 0.4);
+  background-color: #0056b3;
+  transform: translateY(-2px);
 }
 
 .ListingDetail__quoteSubtext {
-  text-align: center;
-  margin-top: 12px;
-  font-size: 0.9rem;
-  color: #777;
+  margin-top: 15px;
+  color: #666;
 }
 
-/* Fallback for 'Not Found' state */
-.listing-not-found {
-  text-align: center;
-  padding: 120px 20px 60px;
-}
-
-.listing-not-found h2 {
-  font-size: 2rem;
-  margin-bottom: 16px;
-}
-
-.listing-not-found .btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: var(--primary-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
+@media (max-width: 992px) {
+  .ListingDetail__grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .ListingDetail__gallery {
+    position: static;
+    top: 0;
+  }
 }

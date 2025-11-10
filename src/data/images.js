@@ -45,7 +45,89 @@ import galleryImage9_1 from "../assets/images/DEZIGNA_SERVICES/pexels-fotoaibe-1
 import galleryImage9_2 from "../assets/images/DEZIGNA_SERVICES/pexels-jvdm-1457847.jpg";
 import galleryImage9_3 from "../assets/images/DEZIGNA_SERVICES/pexels-polina-kovaleva-5644353.jpg";
 
+import newImage1 from '../assets/images/Materials_folder/Floating shelves.png';
+import newImage2 from '../assets/images/Materials_folder/Flooring/alexis river.png';
+import newImage3 from '../assets/images/Materials_folder/Flooring/castle creek.png';
+import newImage4 from '../assets/images/Materials_folder/Flooring/Pacific Umber.png';
+import newImage5 from '../assets/images/Materials_folder/Flooring/pasadina meadows.png';
+import newImage6 from '../assets/images/Materials_folder/Flooring/Winterbury Green.png';
+import newImage7 from '../assets/images/Materials_folder/Framed Cabinet/Cambridge antique white.jpg';
+import newImage8 from '../assets/images/Materials_folder/Framed Cabinet/Cambridge sable.jpg';
+import newImage9 from '../assets/images/Materials_folder/Framed Cabinet/Everest slim shaker white.png';
+import newImage10 from '../assets/images/Materials_folder/Framed Cabinet/Henley Drift.png';
+import newImage11 from '../assets/images/Materials_folder/Framed Cabinet/Henley elwood.png';
+import newImage12 from '../assets/images/Materials_folder/Framed Cabinet/Oakley machine gray.png';
+import newImage13 from '../assets/images/Materials_folder/Framed Cabinet/Oakley Sage Green.png';
+import newImage14 from '../assets/images/Materials_folder/Framed Cabinet/Oakley Tawny Brown.png';
+import newImage15 from '../assets/images/Materials_folder/Framed Cabinet/oakley whisper white.png';
+import newImage16 from '../assets/images/Materials_folder/Framed Cabinet/Shaker Antique White.jpg';
+import newImage17 from '../assets/images/Materials_folder/Framed Cabinet/Shaker black.png';
+import newImage18 from '../assets/images/Materials_folder/Framed Cabinet/shaker charcoal gray.jpg';
+import newImage19 from '../assets/images/Materials_folder/Framed Cabinet/Shaker Dusk.jpg';
+import newImage20 from '../assets/images/Materials_folder/Framed Cabinet/Shaker Gray.jpg';
+import newImage21 from '../assets/images/Materials_folder/Framed Cabinet/shaker hazelnut.jpg';
+import newImage22 from '../assets/images/Materials_folder/Framed Cabinet/Shaker Luywood.jpg';
+import newImage23 from '../assets/images/Materials_folder/Framed Cabinet/shaker Navy.png';
+import newImage24 from '../assets/images/Materials_folder/Framed Cabinet/Shaker white.jpg';
+import newImage25 from '../assets/images/Materials_folder/Framed Cabinet/Tacoma white.jpg';
+import newImage26 from '../assets/images/Materials_folder/Framless Cabinet/palena gloss white.jpg';
+import newImage27 from '../assets/images/Materials_folder/Framless Cabinet/prime components.jpg';
+import newImage28 from '../assets/images/Materials_folder/Framless Cabinet/Tempo Dark wilderness.jpg';
+import newImage29 from '../assets/images/Materials_folder/Framless Cabinet/tempo grey wilderness.jpg';
+import newImage30 from '../assets/images/Materials_folder/Framless Cabinet/tempo white pairie.jpg';
+import newImage31 from '../assets/images/Materials_folder/Framless Cabinet/venus midnight navy.png';
+import newImage32 from '../assets/images/Materials_folder/Framless Cabinet/venus pure blanco.png';
+import newImage33 from '../assets/images/Materials_folder/New folder/Decorative Hardware.png';
+import newImage34 from '../assets/images/Materials_folder/New folder/Framed Rev-A-Shelf Accessories.png';
+import newImage35 from '../assets/images/Materials_folder/New folder/Framless Rev-A-Shelf Accessories.png';
+import newImage36 from '../assets/images/Materials_folder/Wood hood/Avondale.jpg';
+import newImage37 from '../assets/images/Materials_folder/Wood hood/candler.jpg';
+import newImage38 from '../assets/images/Materials_folder/Wood hood/liners and blowers.jpg';
+import newImage39 from '../assets/images/Materials_folder/Wood hood/rosewell.jpg';
+import newImage40 from '../assets/images/Materials_folder/Wood hood/woodland.jpg';
+
 const images = {
+  "Floating shelves.png": newImage1,
+  "alexis river.png": newImage2,
+  "castle creek.png": newImage3,
+  "Pacific Umber.png": newImage4,
+  "pasadina meadows.png": newImage5,
+  "Winterbury Green.png": newImage6,
+  "Cambridge antique white.jpg": newImage7,
+  "Cambridge sable.jpg": newImage8,
+  "Everest slim shaker white.png": newImage9,
+  "Henley Drift.png": newImage10,
+  "Henley elwood.png": newImage11,
+  "Oakley machine gray.png": newImage12,
+  "Oakley Sage Green.png": newImage13,
+  "Oakley Tawny Brown.png": newImage14,
+  "oakley whisper white.png": newImage15,
+  "Shaker Antique White.jpg": newImage16,
+  "Shaker black.png": newImage17,
+  "shaker charcoal gray.jpg": newImage18,
+  "Shaker Dusk.jpg": newImage19,
+  "Shaker Gray.jpg": newImage20,
+  "shaker hazelnut.jpg": newImage21,
+  "Shaker Luywood.jpg": newImage22,
+  "shaker Navy.png": newImage23,
+  "Shaker white.jpg": newImage24,
+  "Tacoma white.jpg": newImage25,
+  "palena gloss white.jpg": newImage26,
+  "prime components.jpg": newImage27,
+  "Tempo Dark wilderness.jpg": newImage28,
+  "tempo grey wilderness.jpg": newImage29,
+  "tempo white pairie.jpg": newImage30,
+  "venus midnight navy.png": newImage31,
+  "venus pure blanco.png": newImage32,
+  "Decorative Hardware.png": newImage33,
+  "Framed Rev-A-Shelf Accessories.png": newImage34,
+  "Framless Rev-A-Shelf Accessories.png": newImage35,
+  "Avondale.jpg": newImage36,
+  "candler.jpg": newImage37,
+  "liners and blowers.jpg": newImage38,
+  "rosewell.jpg": newImage39,
+  "woodland.jpg": newImage40,
+
   "pexels-heyho-6585617.jpg": image1,
   "pexels-curtis-adams-1694007-3935340.jpg": galleryImage1_1,
   "pexels-falling4utah-2724749.jpg": galleryImage1_2,

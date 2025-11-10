@@ -95,6 +95,24 @@ const Listing = () => {
                   </div>
                   <h3 className="listing-title">{product.title}</h3>
                   <p className="listing-description">{product.description}</p>
+                  <div className="listing-features">
+                    <h4 className="listing-features-title">Features</h4>
+                    <ul className="listing-features-list">
+                      {product.features.map((feature, index) => (
+                        <li key={index}>{feature}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="listing-materials">
+                    <h4 className="listing-materials-title">Materials</h4>
+                    <div className="listing-materials-list">
+                      {product.materials.map((material, index) => (
+                        <span key={index} className="listing-material-tag">
+                          {material}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                   <div className="listing-meta-bottom">
                     <div className="listing-price">
                       <FiDollarSign className="price-icon" />

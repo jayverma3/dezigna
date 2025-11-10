@@ -26,12 +26,12 @@ const products = [
       "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-falling4utah-2724749.jpg",
   },
   {
-    name: "Closets",
-    slug: "closets",
+    name: "Appliances",
+    slug: "appliances",
     description: "Maximize your space with custom organization.",
     image: "/images/DEZIGNA_SERVICES/CLOSETS/pexels-heyho-8134812.jpg",
   },
-  {
+  /*{
     name: "Tiles",
     slug: "tiles",
     description: "A vast collection for backsplashes, floors, and walls.",
@@ -43,7 +43,7 @@ const products = [
     description: "Weather-resistant solutions for year-round entertaining.",
     image:
       "/images/DEZIGNA_SERVICES/OUTDOOR_KITCHEN/pexels-tatianasyrikova-3932766.jpg",
-  },
+  },*/
 ];
 
 const ProductShowcase = () => {

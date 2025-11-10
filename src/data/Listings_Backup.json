@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "slug": "cabinets",
+    "title": "Custom Cabinets",
+    "description": "Cabinet solutions for kitchens, bathrooms, and living spaces. Tailored to your style and needs.",
+    "image": "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-10827348.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-4119836.jpg",
+      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-4832513.jpg",
+      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-5008398.jpg"
+    ],
+    "features": [
+      "Custom sizing and configurations",
+      "Soft-close hinges and drawers",
+      "Durable and high-quality materials",
+      "Professional installation services"
+    ],
+    "materials": ["Oak", "Maple", "Cherry", "MDF", "Laminate"],
+    "specifications": {
+      "Material": "High-Density Fiberboard",
+      "Finish": "Matte and Gloss Laminates",
+      "Warranty": "5-Year Limited"
+    },
+    "category": "Kitchen & Bath",
+    "style": "Modern",
+    "rating": 4.8,
+    "reviews": 125,
+    "priceRange": "$$$"
+  },
+  {
+    "id": 2,
+    "slug": "flooring",
+    "title": "Luxury Flooring",
+    "description": "A wide selection of premium flooring, from classic hardwood to contemporary vinyl.",
+    "image": "/images/DEZIGNA_SERVICES/FLOORING/pexels-asphotograpy-518245.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/FLOORING/pexels-clickerhappy-1388944.jpg",
+      "/images/DEZIGNA_SERVICES/FLOORING/pexels-curtis-adams-1694007-3935340.jpg",
+      "/images/DEZIGNA_SERVICES/FLOORING/pexels-curtis-adams-1694007-3935350.jpg"
+    ],
+    "features": [
+      "Wide selection of materials",
+      "Expert installation",
+      "Durable and long-lasting finishes",
+      "Suitable for residential and commercial use"
+    ],
+    "materials": ["Hardwood", "Laminate", "Vinyl", "Tile", "Carpet"],
+    "specifications": {
+      "Type": "Engineered Hardwood",
+      "Thickness": "12mm",
+      "Wear Layer": "AC4 Rated"
+    },
+    "category": "Home Interior",
+    "style": "Contemporary",
+    "rating": 4.9,
+    "reviews": 230,
+    "priceRange": "$$$$"
+  },
+  {
+    "id": 3,
+    "slug": "countertops",
+    "title": "Elegant Countertops",
+    "description": "Durable and beautiful countertops in a variety of premium materials like granite, quartz, and marble.",
+    "image": "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-atbo-66986-245219.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-10827348.jpg",
+      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-4119836.jpg",
+      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-4832513.jpg"
+    ],
+    "features": [
+      "Heat, scratch, and stain resistant",
+      "Custom fabrication and edging",
+      "Seamless installation",
+      "Variety of colors and patterns"
+    ],
+    "materials": [
+      "Granite",
+      "Quartz",
+      "Marble",
+      "Butcher Block",
+      "Solid Surface"
+    ],
+    "specifications": {
+      "Material": "Calacatta Quartz",
+      "Thickness": "3cm",
+      "Edge Profile": "Eased Edge"
+    },
+    "category": "Kitchen & Bath",
+    "style": "Classic",
+    "rating": 4.7,
+    "reviews": 180,
+    "priceRange": "$$$$"
+  },
+  {
+    "id": 0,
+    "slug": "closets",
+    "title": "Custom Closets",
+    "description": "Maximize your space with our custom-designed closet systems, tailored to your organizational needs.",
+    "image": "/images/DEZIGNA_SERVICES/CLOSETS/pexels-anastasia-shuraeva-5704845.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/CLOSETS/pexels-anastasia-shuraeva-5705478.jpg",
+      "/images/DEZIGNA_SERVICES/CLOSETS/pexels-anastasia-shuraeva-5705490.jpg",
+      "/images/DEZIGNA_SERVICES/CLOSETS/pexels-heyho-6508346.jpg"
+    ],
+    "features": [
+      "Walk-in, reach-in, and wardrobe units",
+      "Adjustable shelves and rods",
+      "Integrated lighting and accessories",
+      "Designed for your lifestyle"
+    ],
+    "materials": ["Wood Veneer", "Melamine", "Laminate", "Glass"],
+    "specifications": {
+      "System": "Modular Wall-Mounted",
+      "Depth": "14 inches",
+      "Material": "Thermally Fused Laminate"
+    },
+    "category": "Bedroom",
+    "style": "Minimalist",
+    "rating": 4.9,
+    "reviews": 150,
+    "priceRange": "$$$"
+  },
+  {
+    "id": 5,
+    "slug": "tiles",
+    "title": "Designer Tiles",
+    "description": "An extensive collection of tiles for backsplashes, floors, and showers to add character to your home.",
+    "image": "/images/DEZIGNA_SERVICES/TILES/pexels-andreea-ch-371539-1040895.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/TILES/pexels-arin-turkay-39583-1088158.jpg",
+      "/images/DEZIGNA_SERVICES/TILES/pexels-arin-turkay-39583-1088165.jpg",
+      "/images/DEZIGNA_SERVICES/TILES/pexels-athena-2924090.jpg"
+    ],
+    "features": [
+      "Wide range of sizes, shapes, and colors",
+      "Durable and easy to clean",
+      "Suitable for indoor and outdoor use",
+      "Endless design possibilities"
+    ],
+    "materials": ["Ceramic", "Porcelain", "Glass", "Natural Stone", "Mosaic"],
+    "specifications": {
+      "Type": "Porcelain",
+      "Size": "24x48 inches",
+      "Use": "Floor and Wall"
+    },
+    "category": "Finishes",
+    "style": "Eclectic",
+    "rating": 4.6,
+    "reviews": 95,
+    "priceRange": "$$"
+  },
+  {
+    "id": 7,
+    "slug": "outdoor-kitchen",
+    "title": "Outdoor Kitchens",
+    "description": "Custom outdoor kitchens with weatherproof cabinetry and durable countertops for year-round entertaining.",
+    "image": "/images/DEZIGNA_SERVICES/OUTDOOR_KITCHEN/pexels-b-o-minh-1883288-34110085.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/OUTDOOR_KITCHEN/pexels-conojeghuo-221445.jpg",
+      "/images/DEZIGNA_SERVICES/OUTDOOR_KITCHEN/pexels-enric-cruz-lopez-6642497.jpg",
+      "/images/DEZIGNA_SERVICES/OUTDOOR_KITCHEN/pexels-heyho-7061663.jpg"
+    ],
+    "features": [
+      "Built-in grills and appliances",
+      "Weatherproof cabinetry",
+      "Durable countertops",
+      "Integrated sinks and refrigeration"
+    ],
+    "materials": ["Stainless Steel", "Marine-grade Polymer", "Teak", "Stone"],
+    "specifications": {
+      "Frame": "304 Stainless Steel",
+      "Countertop": "Dekton",
+      "Grill Type": "Infrared Gas Grill"
+    },
+    "category": "Outdoor Living",
+    "style": "Industrial",
+    "rating": 4.8,
+    "reviews": 75,
+    "priceRange": "$$$$$"
+  },
+  {
+    "id": 8,
+    "slug": "appliances",
+    "title": "High-End Appliances",
+    "description": "A curated selection of high-performance appliances from leading brands like Bosch, Miele, and Sub-Zero.",
+    "image": "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-alex-qian-1180283-2343467.jpg",
+    "gallery_images": [
+      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-asphotograpy-213162.jpg",
+      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-charlotte-may-5825347.jpg",
+      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-charlotte-may-5825364.jpg"
+    ],
+    "features": [
+      "Refrigerators and freezers",
+      "Ranges, cooktops, and ovens",
+      "Dishwashers",
+      "Microwaves and ventilation"
+    ],
+    "materials": ["Bosch", "Thermador", "Miele", "Sub-Zero", "Wolf"],
+    "specifications": {
+      "Brand": "Miele",
+      "Type": "Convection Steam Oven",
+      "Finish": "Clean Touch Steel"
+    },
+    "category": "Appliances",
+    "style": "Professional",
+    "rating": 5.0,
+    "reviews": 300,
+    "priceRange": "$$$$$"
+  }
+]
