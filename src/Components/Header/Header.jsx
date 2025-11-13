@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../../assets/images/dezigna_logo.png";
+import { UserContext } from "../../UserContext";
 import "./Header.css";
 
 const Header = () => {
+  const { user, setUser } = useContext(UserContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const [isTop, setIsTop] = useState(true);
@@ -32,6 +34,10 @@ const Header = () => {
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleLogout = () => {
+    setUser(null);
+  };
 
   const submenuVariants = {
     hidden: { opacity: 0, y: 10 },
@@ -105,6 +111,20 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <div className="header__auth">
+        {user ? (
+          <>
+            <span className="welcome-message">Welcome, {user.email}</span>
+            <button className="auth-btn" onClick={handleLogout}>
+              Logout
+            </button>
+          </>
+        ) : (
+          <Link to="/auth" className="auth-btn">
+            Login/Sign Up
+          </Link>
+        )}
+      </div>
     </header>
   );
 };

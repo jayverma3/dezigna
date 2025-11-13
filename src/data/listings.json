@@ -4,35 +4,27 @@
     "slug": "cabinets",
     "title": "Custom Cabinets",
     "description": "Cabinet solutions for kitchens, bathrooms, and living spaces. Tailored to your style and needs.",
-    "image": "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-10827348.jpg",
+    "image": "/images/Materials_folder/Framed Cabinet/Cambridge antique white.jpg",
     "gallery_images": [
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-10827348.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-4119836.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-4832513.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-5008398.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-5353878.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-7027774.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-7028098.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-7168055.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-8031906.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-8186508.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-falling4utah-2724748.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-falling4utah-2724749.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-fotoaibe-1643384.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-heyho-6312077.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-heyho-6315799.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-heyho-6489123.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-heyho-7061393.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-hiba-q-omar-106562569-12918022.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-jvdm-1454805.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-luizavenanci-29303034.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-metalier-coatings-3515111-5252539.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-pixabay-280232.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-polina-kovaleva-5644353.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-reneterp-1358900.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-sander-dalhuisen-1332691-2566030.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-saviesa-home-1098995-2089698.jpg",
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-ushindinamegabe-15743364.jpg"
+      "/images/Materials_folder/Framed Cabinet/Cambridge antique white.jpg",
+      "/images/Materials_folder/Framed Cabinet/Cambridge sable.jpg",
+      "/images/Materials_folder/Framed Cabinet/Everest slim shaker white.png",
+      "/images/Materials_folder/Framed Cabinet/Henley Drift.png",
+      "/images/Materials_folder/Framed Cabinet/Henley elwood.png",
+      "/images/Materials_folder/Framed Cabinet/Oakley machine gray.png",
+      "/images/Materials_folder/Framed Cabinet/Oakley Sage Green.png",
+      "/images/Materials_folder/Framed Cabinet/Oakley Tawny Brown.png",
+      "/images/Materials_folder/Framed Cabinet/oakley whisper white.png",
+      "/images/Materials_folder/Framed Cabinet/Shaker Antique White.jpg",
+      "/images/Materials_folder/Framed Cabinet/Shaker black.png",
+      "/images/Materials_folder/Framed Cabinet/shaker charcoal gray.jpg",
+      "/images/Materials_folder/Framed Cabinet/Shaker Dusk.jpg",
+      "/images/Materials_folder/Framed Cabinet/Shaker Gray.jpg",
+      "/images/Materials_folder/Framed Cabinet/shaker hazelnut.jpg",
+      "/images/Materials_folder/Framed Cabinet/Shaker Luywood.jpg",
+      "/images/Materials_folder/Framed Cabinet/shaker Navy.png",
+      "/images/Materials_folder/Framed Cabinet/Shaker white.jpg",
+      "/images/Materials_folder/Framed Cabinet/Tacoma white.jpg"
     ],
     "features": [
       "Custom sizing and configurations",
@@ -40,13 +32,7 @@
       "Durable and high-quality materials",
       "Professional installation services"
     ],
-    "materials": [
-      "Oak",
-      "Maple",
-      "Cherry",
-      "MDF",
-      "Laminate"
-    ],
+    "materials": ["Oak", "Maple", "Cherry", "MDF", "Laminate"],
     "specifications": {
       "Material": "High-Density Fiberboard",
       "Finish": "Matte and Gloss Laminates",
@@ -77,13 +63,7 @@
       "Durable and long-lasting finishes",
       "Suitable for residential and commercial use"
     ],
-    "materials": [
-      "Hardwood",
-      "Laminate",
-      "Vinyl",
-      "Tile",
-      "Carpet"
-    ],
+    "materials": ["Hardwood", "Laminate", "Vinyl", "Tile", "Carpet"],
     "specifications": {
       "Type": "Engineered Hardwood",
       "Thickness": "12mm",
@@ -100,40 +80,13 @@
     "slug": "countertops",
     "title": "Elegant Countertops",
     "description": "Durable and beautiful countertops in a variety of premium materials like granite, quartz, and marble.",
-    "image": "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-atbo-66986-245219.jpg",
+    "image": "/images/Materials_folder/Flooring/alexis river.png",
     "gallery_images": [
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-atbo-66986-245219.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-10827348.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-4119836.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-4832513.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-5008398.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-5353878.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-7027774.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-7028098.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-7168055.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-8031906.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-curtis-adams-1694007-8186508.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-falling4utah-2724748.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-falling4utah-2724749.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-fotoaibe-1643384.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-heyho-11701158.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-heyho-6312077.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-heyho-6315799.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-heyho-6489123.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-heyho-7061393.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-hiba-q-omar-106562569-12918022.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-jvdm-1454805.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-luizavenanci-29303034.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-metalier-coatings-3515111-5252539.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-pixabay-279648.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-pixabay-280232.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-pixabay-373541.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-pixabay-373548.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-polina-kovaleva-5644353.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-reneterp-1358900.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-sander-dalhuisen-1332691-2566030.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-saviesa-home-1098995-2089698.jpg",
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-ushindinamegabe-15743364.jpg"
+      "/images/Materials_folder/Flooring/alexis river.png",
+      "/images/Materials_folder/Flooring/castle creek.png",
+      "/images/Materials_folder/Flooring/Pacific Umber.png",
+      "/images/Materials_folder/Flooring/pasadina meadows.png",
+      "/images/Materials_folder/Flooring/Winterbury Green.png"
     ],
     "features": [
       "Heat, scratch, and stain resistant",
@@ -192,11 +145,7 @@
       "Wide range of finishes and colors",
       "Decorative hardware options"
     ],
-    "materials": [
-      "Solid Wood",
-      "Plywood",
-      "MDF with Veneer"
-    ],
+    "materials": ["Solid Wood", "Plywood", "MDF with Veneer"],
     "specifications": {
       "Frame": "3/4 inch solid wood",
       "Box": "1/2 inch plywood",
@@ -229,11 +178,7 @@
       "European-style construction",
       "Available in high-gloss and matte finishes"
     ],
-    "materials": [
-      "Laminate",
-      "Acrylic",
-      "Textured Melamine"
-    ],
+    "materials": ["Laminate", "Acrylic", "Textured Melamine"],
     "specifications": {
       "Box": "3/4 inch particleboard or MDF",
       "Hinges": "Concealed soft-close",
@@ -264,12 +209,7 @@
       "Unfinished or professionally finished options",
       "Intricate molding and trim details"
     ],
-    "materials": [
-      "Maple",
-      "Cherry",
-      "Oak",
-      "Alder"
-    ],
+    "materials": ["Maple", "Cherry", "Oak", "Alder"],
     "specifications": {
       "Ventilation": "Sold separately",
       "Sizes": "Available in various widths and heights",
@@ -305,13 +245,7 @@
       "Dishwashers",
       "Microwaves and ventilation"
     ],
-    "materials": [
-      "Bosch",
-      "Thermador",
-      "Miele",
-      "Sub-Zero",
-      "Wolf"
-    ],
+    "materials": ["Bosch", "Thermador", "Miele", "Sub-Zero", "Wolf"],
     "specifications": {
       "Brand": "Miele",
       "Type": "Convection Steam Oven",
