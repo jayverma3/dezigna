@@ -14,13 +14,17 @@
 
    - Implement OTP verification: check OTP and expiry, update user as verified.
 
-4. **Test the new routes**
+4. **Fix nodemailer method** ✅
+
+   - Corrected createTransporter to createTransport.
+
+5. **Test the new routes**
 
    - Run the server and test registration, login, and verification flows.
 
-5. **Verify database schema**
+6. **Verify database schema** ✅
 
-   - Ensure users table has columns: id, name, email, password_hash, otp_code, otp_expiry, is_verified.
+   - Users table has all required columns: id, name, email, password_hash, otp_code, otp_expiry, is_verified.
 
-6. **Configure nodemailer**
+7. **Configure nodemailer**
    - Update transporter config in routes/auth.js or server.js with actual email credentials.

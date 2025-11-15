@@ -43,7 +43,7 @@ app.post("/api/register.php", async (req, res) => {
     );
 
     // Send OTP email
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       host: "smtp.hostinger.com",
       port: 465,
       secure: true,
@@ -57,12 +57,10 @@ app.post("/api/register.php", async (req, res) => {
       html: `Your verification code is: <strong>${otp}</strong>. It will expire in 5 minutes.`,
     });
 
-    res
-      .status(201)
-      .json({
-        message:
-          "User registered successfully. Please check your email for the OTP.",
-      });
+    res.status(201).json({
+      message:
+        "User registered successfully. Please check your email for the OTP.",
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Failed to register user." });
