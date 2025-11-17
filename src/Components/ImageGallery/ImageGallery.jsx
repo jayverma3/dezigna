@@ -5,32 +5,32 @@ import "./ImageGallery.css";
 
 const galleryImages = [
   {
-    src: "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-8186508.jpg",
+    src: "/images/Materials_folder/Flooring/alexis river.png",
     alt: "Modern Kitchen Cabinets",
     caption: "Sleek White Oak",
   },
   {
-    src: "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-atbo-66986-245219.jpg",
+    src: "/images/Materials_folder/Flooring/castle creek.png",
     alt: "Marble Countertop",
     caption: "Elegant Marble Finish",
   },
   {
-    src: "/images/DEZIGNA_SERVICES/CLOSETS/pexels-heyho-6782465.jpg",
+    src: "/images/Materials_folder/Flooring/Pacific Umber.png",
     alt: "Custom Walk-in Closet",
     caption: "Spacious & Organized",
   },
   {
-    src: "/images/DEZIGNA_SERVICES/CABINETS/pexels-heyho-7061393.jpg",
+    src: "/images/Materials_folder/Flooring/pasadina meadows.png",
     alt: "Luxury Kitchen Design",
     caption: "Luxury Living",
   },
   {
-    src: "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-charlotte-may-5825364.jpg",
+    src: "/images/Materials_folder/Flooring/Winterbury Green.png",
     alt: "Modern Appliances",
     caption: "State-of-the-Art",
   },
   {
-    src: "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-7027774.jpg",
+    src: "/images/Materials_folder/Flooring/Winterbury Green.png",
     alt: "Green Kitchen Cabinets",
     caption: "Bold & Beautiful",
   },

@@ -220,41 +220,5 @@
     "rating": 4.8,
     "reviews": 75,
     "priceRange": "$$$$$"
-  },
-  {
-    "id": 8,
-    "slug": "appliances",
-    "title": "High-End Appliances",
-    "description": "A curated selection of high-performance appliances from leading brands like Bosch, Miele, and Sub-Zero.",
-    "image": "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-alex-qian-1180283-2343467.jpg",
-    "gallery_images": [
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-alex-qian-1180283-2343467.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-asphotograpy-213162.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-charlotte-may-5825347.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-charlotte-may-5825364.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-cottonbro-6927199.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-cottonbro-6938705.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-david-yohanes-97693-1450907.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-fotios-photos-1271940.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-kseniachernaya-4740585.jpg",
-      "/images/DEZIGNA_SERVICES/APPLIANCES/pexels-rdne-10432848.jpg"
-    ],
-    "features": [
-      "Refrigerators and freezers",
-      "Ranges, cooktops, and ovens",
-      "Dishwashers",
-      "Microwaves and ventilation"
-    ],
-    "materials": ["Bosch", "Thermador", "Miele", "Sub-Zero", "Wolf"],
-    "specifications": {
-      "Brand": "Miele",
-      "Type": "Convection Steam Oven",
-      "Finish": "Clean Touch Steel"
-    },
-    "category": "Appliances",
-    "style": "Professional",
-    "rating": 5,
-    "reviews": 300,
-    "priceRange": "$$$$$"
   }
 ]

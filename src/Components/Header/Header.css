@@ -17,14 +17,15 @@
 .header--transparent {
   background-color: transparent;
   border-bottom: none;
-.welcome-message {
-  margin-right: 1rem;
-  font-weight: 500;
-}
+  .welcome-message {
+    margin-right: 1rem;
+    font-weight: 500;
+  }
 }
 
 .header__nav a {
   text-decoration: none;
+
   color: #0a2e36;
   font-family: "Fraunces";
   font-weight: 500;

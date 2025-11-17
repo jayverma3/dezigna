@@ -21,7 +21,6 @@ const Header = () => {
     "Accessories",
     "Outdoor Kitchen",
     "Appliances",
-    "View Product Catalog",
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -67,7 +66,7 @@ const Header = () => {
           </li>
           <li
             className={`nav__item has-submenu ${isActive("/listing")}`}
-            onMouseEnter={() => setIsSubMenuOpen(true)}
+            onMouseEnter={() => setIsSubMenuOpen(false)}
             onMouseLeave={() => setIsSubMenuOpen(false)}
           >
             <Link to="/products" onClick={closeMenu}>
@@ -112,7 +111,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="header__auth">
-        {user ? (
+        {/*{user ? (
           <>
             <span className="welcome-message">Welcome, {user.email}</span>
             <button className="auth-btn" onClick={handleLogout}>
@@ -123,7 +122,7 @@ const Header = () => {
           <Link to="/auth" className="auth-btn">
             Login/Sign Up
           </Link>
-        )}
+        )}*/}
       </div>
     </header>
   );

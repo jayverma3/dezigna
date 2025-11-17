@@ -10,17 +10,18 @@
 }
 
 .page-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 10px;
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: rgb(148, 203, 255);
+  margin-bottom: 1rem;
 }
 
 .page-subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: #fff;
   max-width: 600px;
   margin: 0 auto;
+  font-family: "Fraunces", serif;
 }
 
 .listing-container {
@@ -35,6 +36,8 @@
 }
 
 .listing-card {
+  font-family: "Fraunces", serif;
+
   background-color: #fff;
   border-radius: 15px;
   overflow: hidden;

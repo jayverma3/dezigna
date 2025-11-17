@@ -17,16 +17,19 @@
 }
 
 .Gallery-title {
-  font-family: var(--font-secondary);
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: rgb(148, 203, 255);
   font-size: 3rem;
   font-weight: 800;
-  color: #4a90e2;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 
 .Gallery-subtitle {
+  font-family: "Fraunces", serif;
+
   font-size: 1.1rem;
-  color: #4a4a4a;
+  color: rgb(255, 255, 255);
   line-height: 1.6;
 }
 
@@ -72,10 +75,11 @@
 }
 
 .Gallery-item-caption {
-  font-family: var(--font-secondary);
+  font-family: "Fraunces", serif;
+  color: rgb(148, 203, 255);
+
   font-size: 1.5rem;
   font-weight: 600;
-  color: #fff;
 }
 
 .Gallery-cta {

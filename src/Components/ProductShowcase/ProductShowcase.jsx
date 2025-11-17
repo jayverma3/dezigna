@@ -9,27 +9,25 @@ const products = [
     name: "Cabinets",
     slug: "cabinets",
     description: "Custom solutions for kitchen, bath, and beyond.",
-    image:
-      "/images/DEZIGNA_SERVICES/CABINETS/pexels-curtis-adams-1694007-7027774.jpg",
+    image: "/images/Materials_folder/Flooring/alexis river.png",
   },
   {
     name: "Flooring",
     slug: "flooring",
     description: "Hardwood, vinyl, and tile to fit any style.",
-    image: "/images/DEZIGNA_SERVICES/FLOORING/pexels-fwstudio-33348-172292.jpg",
+    image: "/images/Materials_folder/Flooring/castle creek.png",
   },
   {
     name: "Countertops",
     slug: "countertops",
     description: "Durable and elegant surfaces in premium materials.",
-    image:
-      "/images/DEZIGNA_SERVICES/COUNTERTOPS/pexels-falling4utah-2724749.jpg",
+    image: "/images/Materials_folder/Flooring/Pacific Umber.png",
   },
   {
     name: "Appliances",
     slug: "appliances",
     description: "Maximize your space with custom organization.",
-    image: "/images/DEZIGNA_SERVICES/CLOSETS/pexels-heyho-8134812.jpg",
+    image: "/images/Materials_folder/Flooring/pasadina meadows.png",
   },
   /*{
     name: "Tiles",

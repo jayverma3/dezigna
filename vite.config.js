@@ -6,11 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      // Proxying API requests to the PHP backend
       '/api': {
-        target: 'http://localhost/dezigna/backend', // Replace with your actual PHP server address
+        target: 'http://localhost:5000', // Proxy to the Node.js server
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },

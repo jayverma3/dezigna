@@ -15,7 +15,6 @@ const Reviews = () => {
         <h1>Customer Reviews</h1>
         <Testimonials />
         <FAQ />
-        <Auth />
       </div>
     </div>
   );
