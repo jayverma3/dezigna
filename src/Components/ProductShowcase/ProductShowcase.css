@@ -55,17 +55,18 @@
 }
 
 .Showcase__title {
-  font-family: var(--font-secondary);
+  font-family: "Fraunces", serif;
+  color: rgb(22, 142, 255);
+  font-size: 1.5rem;
+  font-weight: 600;
   font-size: 3.5rem;
-  font-weight: 100;
-  color: #fff;
   margin-bottom: 50px;
   letter-spacing: -1px;
 }
 
 .Showcase__subtitle {
   font-size: 1.2rem;
-  color: #a0a0a0;
+  color: rgb(0, 0, 0);
   line-height: 1.6;
   margin-top: 50px;
 }
@@ -132,7 +133,8 @@
 
 .Showcase__card:hover .Showcase__content {
   transform: translateY(0);
-  opacity: 1;
+
+  opacity: 10;
 }
 
 .Showcase__productName {

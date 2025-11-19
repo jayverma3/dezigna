@@ -11,8 +11,7 @@
   --spacing-xl: 64px;
   --border-radius: 16px;
   --border-radius-lg: 24px;
-  --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Montserrat", sans-serif;
+
   --text-sm: 0.875rem;
   --text-base: 1rem;
   --text-lg: 1.25rem;
@@ -95,7 +94,7 @@
 }
 
 .heading {
-  font-family: var(--font-secondary);
+  font-family: "Fraunces";
   font-size: var(--text-4xl);
   font-weight: 800;
   margin-bottom: var(--spacing-md);

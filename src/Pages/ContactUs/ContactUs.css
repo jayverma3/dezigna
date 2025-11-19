@@ -1,0 +1,6 @@
+.contactUs {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

@@ -33,9 +33,9 @@ const Imageandtext = () => {
     { name: "Countertops", icon: CountertopIcon },
     /*{ name: "Closets", icon: ClosetIcon },*/
     /*{ name: "Tiles", icon: TilesIcon },*/
-    /*{ name: "Accessories", icon: AccessoriesIcon },*/
+    /*{ name: "Appliances", icon: AppliancesIcon },*/
     /*{ name: "Outdoor Kitchen", icon: OutdoorKitchenIcon },*/
-    { name: "Appliances", icon: AppliancesIcon },
+    { name: "Accessories", icon: AccessoriesIcon },
   ];
 
   const containerVariants = {

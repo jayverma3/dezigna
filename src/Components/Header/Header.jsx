@@ -108,6 +108,11 @@ const Header = () => {
               About Us
             </Link>
           </li>
+          <li className={`nav__item ${isActive("/contactus")}`}>
+            <Link to="/contactus" onClick={closeMenu}>
+              Contact Us
+            </Link>
+          </li>
         </ul>
       </nav>
       <div className="header__auth">

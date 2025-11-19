@@ -16,6 +16,7 @@
   color: var(--text-color);
   background-color: var(--background-color);
   overflow-x: hidden;
+  padding-top: 130px;
 }
 
 /* Hero Section */
@@ -224,12 +225,12 @@ h2::after {
 
 /* Leadership/Stats Section */
 .leadership-section-v2 {
-  background-color: rgb(8, 28, 65);
-  color: white;
+  background: linear-gradient(45deg, rgb(255, 255, 255), rgb(102, 80, 224));
+  color: var(--secondary-color);
 }
 
 .leadership-section-v2 h2 {
-  color: white;
+  color: rgb(44, 9, 240);
 }
 
 .stats-container-v2 {
@@ -259,7 +260,7 @@ h2::after {
 .stat-label {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
 }
 
 /* Responsive Design */

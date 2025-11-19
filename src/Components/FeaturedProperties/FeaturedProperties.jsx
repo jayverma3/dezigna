@@ -36,18 +36,6 @@ const services = [
     title: "Smart Closet Systems",
     description: "Intelligent and stylish storage to maximize your space.",
   },
-  {
-    id: 5,
-    image: tilesImage,
-    title: "Stylish Tiles",
-    description: "A vast collection of beautiful tiles for any application.",
-  },
-  {
-    id: 6,
-    image: outdoorKitchenImage,
-    title: "Outdoor Kitchens",
-    description: "Create your dream outdoor entertaining space with us.",
-  },
 ];
 
 const FeaturedProperties = () => {

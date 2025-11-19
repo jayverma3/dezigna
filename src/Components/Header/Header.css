@@ -8,10 +8,9 @@
   align-items: center;
   padding: var(--spacing-md) var(--spacing-lg);
   font-family: var(--font-primary);
-
   background-color: var(--background-color);
   z-index: 1000;
-  height: 80px;
+  height: 100px;
 }
 
 .header--transparent {
@@ -25,7 +24,6 @@
 
 .header__nav a {
   text-decoration: none;
-
   color: #0a2e36;
   font-family: "Fraunces";
   font-weight: 500;

@@ -1,6 +1,10 @@
 .cta-section {
   padding: 6rem 2rem;
-  background: linear-gradient(45deg, rgb(255, 255, 255), rgb(4, 0, 248));
+  background: linear-gradient(
+    45deg,
+    rgb(255, 255, 255),
+    rgba(102, 80, 224, 0.77)
+  );
   text-align: center;
   border-top: 1px solid #dee2e6;
   border-bottom: 1px solid #dee2e6;
@@ -31,11 +35,10 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
-  background-color: #007bff;
+  background-color: rgba(102, 80, 224, 0.77);
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
 }
 
 .cta-button:hover {

@@ -23,9 +23,10 @@ const categories = [
     /*name: "Tiles", icon: <FaRegSun /> */
   },
   {
-    /* name: "Accessories", icon: <FaChair /> */
+    name: "Accessories",
+    icon: <FaChair />,
   },
-  { name: "Appliances", icon: <FaBlender /> },
+  /*{ name: "Appliances", icon: <FaBlender /> },*/
   {
     /*name: "Outdoor Kitchens", icon: <FaUtensils /> */
   },
@@ -73,23 +74,25 @@ const ProductCategories = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
       >
-        {categories.filter(category => category.name).map((category) => (
-          <motion.div
-            className="category-card"
-            key={category.name}
-            variants={itemVariants}
-            whileHover={{
-              scale: 1.08,
-              zIndex: 1,
-              boxShadow: "0 15px 30px rgba(0,0,0,0.15)",
-              borderColor: "#007bff",
-            }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            <div className="category-icon">{category.icon}</div>
-            <h3 className="category-name">{category.name}</h3>
-          </motion.div>
-        ))}
+        {categories
+          .filter((category) => category.name)
+          .map((category) => (
+            <motion.div
+              className="category-card"
+              key={category.name}
+              variants={itemVariants}
+              whileHover={{
+                scale: 1.08,
+                zIndex: 1,
+                boxShadow: "0 15px 30px rgba(0,0,0,0.15)",
+                borderColor: "#007bff",
+              }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <div className="category-icon">{category.icon}</div>
+              <h3 className="category-name">{category.name}</h3>
+            </motion.div>
+          ))}
       </motion.div>
     </div>
   );
