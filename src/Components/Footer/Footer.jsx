@@ -53,7 +53,7 @@ const Footer = () => {
         <p className="copyright">© 2025. All rights reserved.</p>
       </div>
       <div className="footer-section investments">
-        <h3 className="footer-heading">INVESTMENTS</h3>
+        <h3 className="footer-heading">Contact</h3>
         <p>(734) 560 0827</p>
 
         <p>

@@ -18,10 +18,10 @@
   height: 100%;
   background-image: radial-gradient(
       circle at 20% 20%,
-      rgba(102, 80, 224, 0.77),
+      rgba(61, 30, 238, 0.77),
       transparent 30%
     ),
-    radial-gradient(circle at 80% 70%, rgb(224, 80, 152), transparent 30%);
+    radial-gradient(circle at 80% 70%, rgb(233, 36, 134), transparent 30%);
 
   z-index: 0;
 }

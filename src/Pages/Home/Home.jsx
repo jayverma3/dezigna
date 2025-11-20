@@ -35,7 +35,6 @@ const Home = () => {
       <Features />
       <FAQ />
       <Newsletter />
-      <FeaturedProperties />
       {/*<ShopLocation />*/}
     </div>
   );

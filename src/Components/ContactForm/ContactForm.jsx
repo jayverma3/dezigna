@@ -165,7 +165,7 @@ const ContactForm = () => {
                     checked={formData.services.includes("flooring")}
                     onChange={handleInputChange}
                   />
-                  <label htmlFor="flooring">Flooring & Tiling</label>
+                  <label htmlFor="flooring">Flooring</label>
                 </div>
               </div>
             </div>
@@ -297,12 +297,6 @@ const ContactForm = () => {
                   boxShadow: "0px 8px 25px rgba(22, 82, 123, 0.4)",
                 }}
                 whileTap={{ scale: 0.95 }}
-                animate={{ scale: [1, 1.02, 1] }}
-                transition={{
-                  repeat: Infinity,
-                  duration: 2,
-                  ease: "easeInOut",
-                }}
                 onClick={openModal}
               >
                 <FiCalendar className="button-icon" />

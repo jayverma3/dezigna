@@ -5,6 +5,7 @@ import FAQ from "../../Components/FAQ/FAQ";
 import Newsletter from "../../Components/Newsletter/Newsletter";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import Auth from "../../Components/Auth/Auth";
+import FeaturedProperties from "../../Components/FeaturedProperties/FeaturedProperties";
 import "./Reviews.css";
 
 const Reviews = () => {
@@ -14,6 +15,8 @@ const Reviews = () => {
       <div className="reviews-content">
         <h1>Customer Reviews</h1>
         <Testimonials />
+        <FeaturedProperties />
+        <Newsletter />
         <FAQ />
       </div>
     </div>

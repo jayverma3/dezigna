@@ -28,10 +28,10 @@
 }
 
 .contact-form-container {
-  max-width: 900px;
+  max-width: 720px;
   margin: 0 auto;
   background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
-  padding: 60px;
+  padding: 48px;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15),
     0 0 0 1px rgba(255, 255, 255, 0.8);
@@ -245,8 +245,9 @@
 }
 
 .schedule-btn {
+  margin-top: 25px;
   width: 100%;
-  padding: 20px;
+  padding: 16px;
   border: 2px solid #16527b;
   border-radius: 12px;
   background: linear-gradient(135deg, #16527b 0%, #1e7e34 100%);
@@ -352,14 +353,13 @@
 }
 
 .modal-form-side {
-  padding: 40px;
   flex: 1;
   position: relative;
 }
 
 .modal-close-button-v2 {
   position: absolute;
-  top: 20px;
+  top: 50px;
   right: 20px;
   background: none;
   border: none;
